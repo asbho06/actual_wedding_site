@@ -1,55 +1,39 @@
-/* Apply Caveat font to headings and important sections */
-h1, h2, h3 {
-    font-family: 'Caveat', cursive;
-    font-weight: 700;
-}
-
-/* Use Caveat font for a personal touch in other areas */
-p {
-    font-family: 'Caveat', cursive;
-    font-weight: 400;
-}
-
-/* General Styles */
+/* General Body Styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #f9f9f9;
+    color: #333;
     margin: 0;
     padding: 0;
-    color: #333;
+    line-height: 1.6;
 }
 
-header {
+/* Header Styling */
+.main-header {
     text-align: center;
-    padding: 50px;
+    padding: 60px 0;
     background-color: #ffefef;
 }
 
-header h1 {
-    font-size: 2.5rem;
+.main-header h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 3rem;
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.main-header .date {
+    font-size: 1.5rem;
     color: #333;
 }
 
-.date {
-    font-size: 1.2rem;
-    color: #777;
-}
-
-/* Hero section styling */
-.hero img {
-    display: block;
-    max-width: 80%;
-    margin: 20px auto;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-/* Countdown Styles */
+/* Countdown Section */
 .countdown {
-    text-align: center;
-    padding: 50px;
     background-color: #fff;
+    padding: 50px;
+    text-align: center;
     color: #e74c3c;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .countdown h2 {
@@ -60,6 +44,7 @@ header h1 {
 #countdown-timer {
     display: flex;
     justify-content: center;
+    gap: 20px;
     font-size: 1.5rem;
 }
 
@@ -73,97 +58,99 @@ header h1 {
     font-weight: bold;
     color: #333;
 }
-input[type="checkbox"] {
-    margin-right: 10px;
-}
 
-label {
-    font-family: 'Arial', sans-serif;
-    font-size: 1rem;
-}
-
-form {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-/* General Form Styles */
-form {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
+/* Hero Section */
+.hero img {
+    display: block;
+    max-width: 80%;
+    margin: 30px auto;
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Labels and Inputs */
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-family: 'Arial', sans-serif;
-    font-size: 1rem;
-    color: #333;
-}
-
-input[type="text"], input[type="email"], input[type="number"], textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-
-/* Checkbox Styles */
-input[type="checkbox"] {
-    margin-right: 10px;
-}
-
-input[type="checkbox"] + label {
-    font-family: 'Arial', sans-serif;
-    font-size: 1rem;
-    color: #333;
-    margin-bottom: 10px;
-    display: block;
-}
-
-/* Button Styling */
-button {
-    background-color: #e74c3c;
-    color: white;
-    padding: 12px 24px;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 100%;
-}
-
-button:hover {
-    background-color: #d63b29;
-}
-
-/* Additional Textarea Styling */
-textarea {
-    height: 100px;
-    resize: none;
-}
-
-/* Form Section Styling */
-.rsvp {
-    padding: 40px;
-    text-align: center;
+/* Details Section */
+.details {
     background-color: #fff;
-    margin: 40px auto;
+    text-align: center;
+    padding: 50px;
+    margin-top: 40px;
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details h2, .details h3 {
+    font-family: 'Caveat', cursive;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.details p, .details ul {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.details ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* RSVP Section */
+.rsvp {
+    background-color: #ffefef;
+    padding: 50px;
+    text-align: center;
 }
 
 .rsvp h2 {
     font-family: 'Caveat', cursive;
+    color: #e74c3c;
     font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.rsvp a {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.rsvp a:hover {
+    background-color: #d63b29;
+}
+
+/* Story Section */
+.story {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+    margin-top: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story h2 {
+    font-family: 'Caveat', cursive;
     color: #e74c3c;
     margin-bottom: 20px;
+}
+
+.story p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffefef;
+    color: #777;
+    margin-top: 50px;
+    font-size: 1rem;
 }
