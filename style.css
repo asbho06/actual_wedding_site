@@ -73,3 +73,31 @@ header h1 {
     font-weight: bold;
     color: #333;
 }
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d63b29;
+}
