@@ -1,6 +1,18 @@
 /* Basic styling */
+/* Apply Caveat font to headings and important sections */
+h1, h2, h3 {
+    font-family: 'Caveat', cursive;
+    font-weight: 700; /* Use the bold version for headings */
+}
+
+/* Use Caveat font for a personal touch in other areas */
+p {
+    font-family: 'Caveat', cursive;
+    font-weight: 400; /* Use the regular version for paragraphs */
+}
+
 body {
-    font-family: 'Lobster', sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
