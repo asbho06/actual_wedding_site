@@ -1,16 +1,16 @@
-/* Basic styling */
 /* Apply Caveat font to headings and important sections */
 h1, h2, h3 {
     font-family: 'Caveat', cursive;
-    font-weight: 700; /* Use the bold version for headings */
+    font-weight: 700;
 }
 
 /* Use Caveat font for a personal touch in other areas */
 p {
     font-family: 'Caveat', cursive;
-    font-weight: 400; /* Use the regular version for paragraphs */
+    font-weight: 400;
 }
 
+/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
@@ -35,6 +35,7 @@ header h1 {
     color: #777;
 }
 
+/* Hero section styling */
 .hero img {
     display: block;
     max-width: 80%;
@@ -43,69 +44,6 @@ header h1 {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.details {
-    text-align: center;
-    padding: 40px;
-    background-color: #fff;
-}
-
-.details h2 {
-    font-size: 2rem;
-    color: #e74c3c;
-}
-
-.details ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.details ul li {
-    font-size: 1.2rem;
-    margin: 10px 0;
-}
-
-.rsvp {
-    text-align: center;
-    background-color: #ffefef;
-    padding: 40px;
-}
-
-.rsvp a {
-    color: #e74c3c;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 10px 20px;
-    border: 2px solid #e74c3c;
-    border-radius: 5px;
-}
-
-.rsvp a:hover {
-    background-color: #e74c3c;
-    color: #fff;
-}
-
-.story {
-    background-color: #fff;
-    padding: 40px;
-    text-align: center;
-}
-
-.story h2 {
-    color: #e74c3c;
-}
-
-.story p {
-    font-size: 1.1rem;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #ffefef;
-    color: #777;
-}
 /* Countdown Styles */
 .countdown {
     text-align: center;
