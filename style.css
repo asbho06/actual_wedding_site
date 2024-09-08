@@ -13,14 +13,14 @@ body {
 .main-header {
     text-align: center;
     padding: 50px 0;
-    background-color: #ffefef;
+    background-color: #e0f7ff;
     width: 100%;
 }
 
 .main-header h1 {
     font-family: 'Caveat', cursive;
     font-size: 3rem;
-    color: #e74c3c;
+    color: #87CEEB;
     margin-bottom: 10px;
 }
 
@@ -44,7 +44,7 @@ body {
 
 .story h2 {
     font-family: 'Caveat', cursive;
-    color: #e74c3c;
+    color: #87CEEB;
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
@@ -63,7 +63,7 @@ body {
     background-color: #fff;
     padding: 50px;
     text-align: center;
-    color: #e74c3c;
+    color: #87CEEB;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -111,7 +111,7 @@ body {
 
 .details h2, .details h3 {
     font-family: 'Caveat', cursive;
-    color: #e74c3c;
+    color: #87CEEB;
     margin-bottom: 20px;
 }
 
@@ -127,21 +127,21 @@ body {
 
 /* RSVP Section */
 .rsvp {
-    background-color: #ffefef;
+    background-color: #e0f7ff;
     padding: 50px;
     text-align: center;
 }
 
 .rsvp h2 {
     font-family: 'Caveat', cursive;
-    color: #e74c3c;
+    color: #87CEEB;
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
 .rsvp a {
     display: inline-block;
-    background-color: #e74c3c;
+    background-color: #87CEEB;
     color: white;
     padding: 15px 30px;
     font-size: 1.2rem;
@@ -151,7 +151,7 @@ body {
 }
 
 .rsvp a:hover {
-    background-color: #d63b29;
+    background-color: #e0f7ff;
 }
 
 /* Story Section */
@@ -166,7 +166,7 @@ body {
 
 .story h2 {
     font-family: 'Caveat', cursive;
-    color: #e74c3c;
+    color: #87CEEB;
     margin-bottom: 20px;
 }
 
@@ -221,6 +221,6 @@ footer {
 }
 
 .schedule-list li strong {
-    color: #e74c3c;
+    color: #87CEEB;
     font-weight: bold;
 }
